@@ -2,6 +2,20 @@
 
 Aplicativo mobile da Global Solution FIAP **CitizenTech**. Ajuda o pequeno produtor rural a irrigar na hora certa, com base na umidade real do solo.
 
+**Disciplina:** Mobile Development & IoT · Engenharia de Software (3º ano) · FIAP · Global Solution 2026.2
+
+## Integrantes
+
+| Nome | RM |
+|---|---|
+| Victor Mattenhauer Lopes Capp | 555753 |
+| José Antonio Kretzer Rodriguez | 555523 |
+| Igor Brunelli Ralo | 555035 |
+
+## Vídeo de demonstração
+
+▶️ **Assista ao app rodando (até 3 minutos):** https://youtu.be/PcH6Ap0O_iY
+
 ---
 
 ## Ficha da CitizenTech
@@ -42,11 +56,18 @@ Aplicativo mobile da Global Solution FIAP **CitizenTech**. Ajuda o pequeno produ
 
 ### Prints das telas
 
-> Tire os prints no celular e salve na pasta `docs/prints/` com estes nomes.
-
-| Login | Criar conta | Hoje | Plantações | Nova plantação | Histórico | Ajuda | Sem internet |
-|---|---|---|---|---|---|---|---|
-| ![Login](docs/prints/login.png) | ![Criar conta](docs/prints/cadastro.png) | ![Hoje](docs/prints/hoje.png) | ![Plantações](docs/prints/plantacoes.png) | ![Nova plantação](docs/prints/nova-plantacao.png) | ![Histórico](docs/prints/historico.png) | ![Ajuda](docs/prints/ajuda.png) | ![Sem internet](docs/prints/offline.png) |
+<table>
+  <tr>
+    <td align="center"><b>Login</b><br><img src="docs/prints/login.png" width="200" alt="Tela de login do SoloCerto"></td>
+    <td align="center"><b>Hoje</b><br><img src="docs/prints/hoje.png" width="200" alt="Tela Hoje: solo seco, 8% de umidade, botão Irriguei"></td>
+    <td align="center"><b>Plantações</b><br><img src="docs/prints/plantacoes.png" width="200" alt="Tela Plantações com a situação de cada talhão"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Histórico (resumo e gráfico)</b><br><img src="docs/prints/historico.png" width="200" alt="Tela Histórico com alertas, irrigações e gráfico de umidade"></td>
+    <td align="center"><b>Histórico (todas as leituras)</b><br><img src="docs/prints/historico-lista.png" width="200" alt="Lista de leituras, alertas e irrigações"></td>
+    <td align="center"><b>Ajuda</b><br><img src="docs/prints/ajuda.png" width="200" alt="Tela Ajuda explicando o que cada cor significa"></td>
+  </tr>
+</table>
 
 ---
 
