@@ -14,7 +14,7 @@ Aplicativo mobile da Global Solution FIAP **CitizenTech**. Ajuda o pequeno produ
 
 ## Vídeo de demonstração
 
-▶️ **Assista ao app rodando (até 3 minutos):** https://youtu.be/PcH6Ap0O_iY
+▶️ **Assista ao app rodando (até 3 minutos):** https://youtube.com/shorts/Bi-YlroILR4
 
 ---
 
