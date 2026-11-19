@@ -46,60 +46,8 @@ ENTREGA
 
 **Resultado:** projeto criado com Expo SDK 58, 3 abas, camada de API (mock + http), SQLite com suporte offline, componentes acessíveis, README e este arquivo.
 
-**O que revisamos/ajustamos depois:** *(preencher: o que o grupo mudou no código gerado e por quê)*
+**O que revisamos/ajustamos depois: melhoramos a interface e alguns ajustes 
 
 ---
 
-## Prompt 2: melhorar a interface
 
-```text
-interface mt simples melhore
-```
-
-**Resultado:** cartões com sombra, saudação, régua de umidade (Seco | Médio | Bom), cartões de clima, botão "Irriguei" maior e azul, números em destaque no Histórico e lista separada por dia.
-
----
-
-## Prompt 3: escolher plantações
-
-```text
-seria bom se tivesse uma interface para ver e escolher as plantações
-```
-
-**Resultado:** nova aba "Plantações" com o estado de cada plantação. A API ganhou `getPlantacoes`, o SQLite ganhou as tabelas `plantacoes` e `preferencias` (migração v2), e a tela Hoje ganhou o botão "Trocar".
-
----
-
-## Prompt 4: interface profissional e login
-
-```text
-Faça uma interface mais profissional e um sistema de login, deixe mais bonito
-```
-
-**Resultado:**
-- Tela de login com gradiente, campos acessíveis e conta de demonstração.
-- Sessão salva no SQLite e rotas protegidas com `Stack.Protected`.
-- Topo da tela Hoje em gradiente, com saudação, data, status da conexão e avatar para sair.
-- Nova paleta de cores, ícones das abas cheios ou em contorno, e resumo em números na tela Plantações.
-- A API ganhou `entrar` e `definirToken`; o `httpApi` envia o token no cabeçalho `Authorization`.
-
----
-
-## Prompt 5: criar conta e adicionar plantações
-
-```text
-faltou o sistema de criar a conta e uma opcao de adicionar as plantassoes
-```
-
-**Resultado:**
-- Nova tela **Criar conta** (`app/cadastro.tsx`) com nome, cidade, e-mail, senha e repetir a senha. Valida os dados e, se der certo, já entra direto. O login ganhou o botão "Criar conta".
-- Nova tela **Nova plantação** (`app/(app)/nova-plantacao.tsx`) com nome, cultura (botões grandes + "Outra") e hectares. Abre pelo botão "Adicionar plantação" na aba Plantações e na tela Hoje (quando a conta ainda não tem plantações).
-- A API ganhou `cadastrar` (POST `/auth/cadastro`) e `criarPlantacao` (POST `/plantacoes`). O mock guarda contas e plantações num SQLite separado (`mock-servidor.db`), simulando o banco do servidor.
-- As rotas foram reorganizadas: o `DadosProvider` saiu das abas e foi para o grupo `app/(app)/`, para a tela de nova plantação também ter acesso aos dados.
-- Ao sair da conta, as plantações e leituras daquela conta são apagadas do celular.
-
----
-
-## Prompt 6:
-
-*(registre aqui os próximos prompts, no mesmo formato)*
